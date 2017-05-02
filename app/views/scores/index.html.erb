@@ -1,0 +1,13 @@
+<h1>Top Ten Scores</h1>
+
+<% if !@top_10_scores.empty? %>
+  <% @top_10_scores.each do |score| %>
+  <ol>
+    <li>Score: <% score.score %></li>
+  </ol>
+  <% end %>
+<% else %>
+  <ul>
+    <li>No scores yet!</li>
+  </ul>
+<% end %>
