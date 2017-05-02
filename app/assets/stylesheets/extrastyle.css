@@ -288,9 +288,8 @@ header {
   background: rgba(0, 0, 0, 0.25);
   color: #FFF;
   }
-.main section.page3 {
-  background:url(tilted-phone.png) no-repeat 156px -150px ;
-}
+
+
 .main section.page3 .page_container {
   overflow: hidden;
   width: 500px;
@@ -312,13 +311,11 @@ header {
   font-size: 21px;
 }
 
-.main section.page4 {
-  background:url(tilted-phone.png) no-repeat 156px -150px ;
-}
 .main section.page4 .page_container {
   overflow: hidden;
-  width: 500px;
-  right: -285px;
+  /*width: 500px;
+  right: -285px;*/
+  /*margin: */
 }
 .main section.page4 h1 {
   text-align: left;
