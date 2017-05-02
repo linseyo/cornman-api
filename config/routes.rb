@@ -3,4 +3,6 @@ Rails.application.routes.draw do
   root :to => "about#index"
   resources :about, only: [:index]
   resources :scores, only: [:index, :create]
+
+  match '*any' => 'application#options', :via => [:options]
 end
