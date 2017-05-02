@@ -5,6 +5,7 @@ class ScoresController < ApplicationController
 
   def create
     @new_score = Score.new(score_params)
+    p @new_score
     @new_score.save!
   end
 
