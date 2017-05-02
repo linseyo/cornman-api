@@ -1,6 +1,6 @@
 class ScoresController < ApplicationController
   def index
-    top_10_scores = Score.order('score desc').limit(10)
+    @top_10_scores = Score.order('score desc').limit(10)
   end
 
   def create
