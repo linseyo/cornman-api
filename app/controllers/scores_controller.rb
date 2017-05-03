@@ -1,6 +1,7 @@
 class ScoresController < ApplicationController
   def index
     @top_10_scores = Score.order('score desc').limit(10)
+    render :json => @top_10_scores
   end
 
   def create
