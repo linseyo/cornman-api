@@ -1,9 +1,9 @@
 <h1>Top Ten Scores</h1>
 
 <% if !@top_10_scores.empty? %>
-  <% @top_10_scores.each do |score| %>
+  <% @top_10_scores.each do |record| %>
   <ol>
-    <li>Score: <% score.score %></li>
+    <li>Score: <%= record.score %></li>
   </ol>
   <% end %>
 <% else %>
