@@ -1,0 +1,31 @@
+.main section.page3 .page_container {
+  /*overflow: hidden;
+  width: 500px;
+  right: -285px;*/
+  margin: 0;
+  padding: 0;
+  width: 1000px;
+  overflow: hidden;
+  margin: 50px auto;
+  background-color: black;
+  color: white;
+}
+
+.main section.page3 h1 {
+  text-align: left;
+  padding: 0;
+  margin-bottom: 0;
+  font-size: 70px;
+  letter-spacing: -1px;
+}
+.main section.page3 h2 {
+  color: white;
+  text-align: left;
+  line-height: 160%;
+  font-weight: 100;
+  font-size: 21px;
+}
+
+.photobanner {
+
+}
