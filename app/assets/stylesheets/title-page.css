@@ -4,13 +4,17 @@
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: 100% 58%;
-  background-repeat:   no-repeat;
+  background-size: 100% 80%;
+  background-repeat:  no-repeat;
 
 }
 
 .title-content .title-header img{
   margin-top: 10%;
+}
+
+.main section .page_container .title-content {
+  font-size: 200%;
 }
 
 .main section .page_container .spacer {
