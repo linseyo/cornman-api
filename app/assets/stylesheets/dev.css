@@ -1,0 +1,33 @@
+.paragraph {
+  /*width: 400px;*/
+  width: 35%;
+  text-align: left;
+  line-height: 1.5;
+  margin: 5px;
+  display: block;
+}
+
+p.title {
+  color: rgba(255,255,255,0.85);
+  font-size: 24px;
+}
+
+p.space {
+  margin: 0;
+  /*padding: 0;*/
+}
+
+.section-right {
+  width: 35%;
+  margin: 5px;
+  display: inline-block;
+  /*box-align: right;*/
+}
+
+section.page4 {
+  background-color: #34495e;
+}
+
+section.page4 {
+  background-color: #7f8c8d;
+}

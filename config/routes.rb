@@ -4,5 +4,7 @@ Rails.application.routes.draw do
   resources :about, only: [:index]
   resources :scores, only: [:index, :create]
 
+  get '/about/dev', to: 'about#dev'
+
   match '*any' => 'application#options', :via => [:options]
 end
