@@ -1,5 +1,25 @@
-.main section.page2 .dev .page_container .dev {
-  background-color: blue;
-  margin-top: 0px;
-  overflow: hidden;
+.paragraph {
+  /*width: 400px;*/
+  width: 35%;
+  text-align: left;
+  line-height: 1.5;
+  margin: 5px;
+
+}
+
+p.title {
+  color: rgba(255,255,255,0.85);
+  font-size: 24px;
+}
+
+p.space {
+  margin: 0;
+  /*padding: 0;*/
+}
+
+.section-right {
+  width: 35%;
+  margin: 5px;
+  display: inline-block;
+  /*box-align: right;*/
 }

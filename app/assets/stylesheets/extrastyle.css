@@ -212,7 +212,7 @@ header {
 }
 .main section .page_container {
   position: relative;
-  top: 25%;
+  top: 15%;
   margin: 0 auto 0;
   max-width: 950px;
   z-index: 3;
@@ -232,7 +232,7 @@ header {
 }
 .main section.page1 h1 {
   float: none;
-  width: 435px;
+  /*width: 435px;*/
   display: block;
   text-align: center;
   padding: 0;
