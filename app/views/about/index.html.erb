@@ -1,1 +1,43 @@
-<h1>Cornman API</h1>
+<div class="wrapper">
+  <div class="main">
+
+    <section class="page1">
+    <div class="page_container">
+      <%= render partial: "gametitle" %>
+      <!-- ERB THE FIRST PAGE / GAME TITLE PAGE -->
+    </div>
+    </section>
+
+
+    <section class="page2">
+      <div class="page_container">
+        <%= render partial: "developmentstory" %>
+        <!-- ERB Development Story -->
+      </div>
+    </section>
+
+    <section class="page3">
+      <div class="page_container">
+        <%= render partial: "gamedescription" %>
+        <!-- ERB Game description + Assets -->
+      </div>
+    </section>
+
+    <section class="page4">
+      <div class="page_container">
+        <%= render partial: "aboutus" %>
+        <!-- ERB ABOUT US INFO -->
+      </div>
+    </section>
+
+  </div>
+</div>
+
+<script>
+onePageScroll(".main", {
+ sectionContainer: "section",
+ loop: true,
+ responsiveFallback: false
+});
+
+</script>
