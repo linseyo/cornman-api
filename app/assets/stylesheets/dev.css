@@ -4,7 +4,7 @@
   text-align: left;
   line-height: 1.5;
   margin: 5px;
-
+  display: block;
 }
 
 p.title {
@@ -22,4 +22,12 @@ p.space {
   margin: 5px;
   display: inline-block;
   /*box-align: right;*/
+}
+
+section.page4 {
+  background-color: #34495e;
+}
+
+section.page4 {
+  background-color: #7f8c8d;
 }
