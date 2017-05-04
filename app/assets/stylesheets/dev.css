@@ -24,10 +24,15 @@ p.space {
   /*box-align: right;*/
 }
 
-section.page4 {
-  background-color: #34495e;
+section.page2 {
+  background-color: #ecf0f1
+}
+
+section.page3 {
+  background: #ffffcc url(kanbanweb.jpg) bottom no-repeat;
+  background-position: 50% 70%;
 }
 
 section.page4 {
-  background-color: #7f8c8d;
+  background-color:   #c0c5ce;
 }
