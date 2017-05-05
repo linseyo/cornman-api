@@ -2,7 +2,7 @@
   width: 35%;
   text-align: justify;
   line-height: 1.5;
-  margin: 5px;
+  margin-bottom: 5px;
   display: block;
 }
 
@@ -23,10 +23,10 @@ p.space {
 
 section.page2.dev {
   background: #ffffcc url(kanbanweb.jpg) bottom no-repeat;
-  background-position: 50% 70%;
+  background-position: 50% 80%;
 }
 
-.phase-2 p {
+div.phase-2 p {
   text-align: justify;
 }
 
@@ -46,4 +46,35 @@ div.whatever h3 {
   /*margin-top: 10px;*/
   margin-left: 25px;
   text-align: left;
+}
+
+section.page3 div h1.dev {
+  text-align: left;
+}
+
+div.iteration-image img {
+  max-height:100%; 
+  max-width:100%;
+}
+
+div.title-image {
+  text-align: center;
+}
+
+h1.title {
+  text-align: center;
+}
+
+section.page4 div.title h1 {
+  text-align: center;
+}
+
+div.group-image {
+  margin-top: 50px;
+  text-align: center;
+}
+
+div.group-image img {
+  max-height:100%; 
+  max-width:100%;
 }
