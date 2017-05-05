@@ -29,6 +29,10 @@
   font-size: 21px;
 }
 
+.single-center {
+  text-align: center;
+}
+
 .photobanner {
   height: 300px;
   width: 3550px;
