@@ -29,3 +29,15 @@ section.page2.dev {
 .phase-2 p {
   text-align: justify;
 }
+
+#link-dis {
+  border: 1px dashed black;
+}
+
+#link-dis a:hover {
+  color: #0abab5;
+}
+
+div.whatever h3 {
+  font-size: 26px;
+}
