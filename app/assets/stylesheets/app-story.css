@@ -1,8 +1,11 @@
+.main section.page3 {
+  background: black;
+}
+
 .main section.page3 .page_container {
   width: 100%;
   overflow: hidden;
   margin: 10px auto;
-  background: black;
 }
 
 .main section.page3 header {
