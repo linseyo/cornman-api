@@ -38,7 +38,7 @@ h1, h2, h3, h4 {
 }
 h1 {
   margin-top: 100px;
-  color: #000;
+  /*color: #000;*/
   margin-bottom: 5px;
   font-size: 70px;
   letter-spacing: -4px;
@@ -111,7 +111,7 @@ code.js {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   font-weight: 100;
-  color: white;
+  /*color: white;*/
   margin: 0;
 }
 
@@ -274,12 +274,12 @@ header {
   overflow: hidden;
 }
 .main section.page2 h1 {
-  text-align: center;
+  /*text-align: center;*/
   padding: 0;
   margin-bottom: 15px;
   font-size: 50px;
   letter-spacing: -1px;
-  color: white;
+  /*color: white;*/
 }
 .main section.page2 h2 {
   color: rgba(255,255,255,0.85);

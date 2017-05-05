@@ -1,5 +1,4 @@
 .paragraph {
-  /*width: 400px;*/
   width: 35%;
   text-align: justify;
   line-height: 1.5;
@@ -14,18 +13,15 @@ p.title {
 
 p.space {
   margin: 0;
-  /*padding: 0;*/
 }
 
 .section-right {
   width: 35%;
   margin: 5px;
   display: inline-block;
-  /*box-align: right;*/
 }
 
 section.page2.dev {
-  /*background-color: #ffffcc;*/
   background: #ffffcc url(kanbanweb.jpg) bottom no-repeat;
   background-position: 50% 70%;
 }
