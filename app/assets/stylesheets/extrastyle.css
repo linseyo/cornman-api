@@ -39,7 +39,7 @@ h1, h2, h3, h4 {
 }
 h1 {
   margin-top: 100px;
-  color: #000;
+  /*color: #000;*/
   margin-bottom: 5px;
   font-size: 70px;
   letter-spacing: -4px;
@@ -112,7 +112,7 @@ code.js {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   font-weight: 100;
-  color: white;
+  /*color: white;*/
   margin: 0;
 }
 
@@ -230,11 +230,6 @@ header {
   overflow: hidden;
 }
 
-/*.main section > img {
-  position: absolute;
-  z-index: 1;
-}*/
-
 .main section.page1 {
   background:#C6E2FF;
 }
@@ -264,26 +259,22 @@ header {
 .main section .page_container .btns a{
   text-align: center;
 }
-.main section.page2 {
+
+.main section.page2.front {
   background: #e5e6eb;
 }
-/*.main section.page2 > img {
-  position: absolute;
-  top: -300px;
-  left: 50%;
-  margin-left: -1095px;
-}*/
+
 .main section.page2 .page_container {
   /*margin-top: 240px;*/
   overflow: hidden;
 }
 .main section.page2 h1 {
-  text-align: center;
+  /*text-align: center;*/
   padding: 0;
   margin-bottom: 15px;
   font-size: 50px;
   letter-spacing: -1px;
-  color: white;
+  /*color: white;*/
 }
 .main section.page2 h2 {
   color: rgba(255,255,255,0.85);
@@ -349,12 +340,6 @@ body.disabled-onepage-scroll .main section.page1 > img {
   width: 80%;
   left: 10%;
 }
-
-/*body.disabled-onepage-scroll .main section > img {
-  position: relative;
-  max-width: 80%;
-  bottom: 0;
-}*/
 
 body.disabled-onepage-scroll code {
   width: 95%;
