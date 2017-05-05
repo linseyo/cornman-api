@@ -1,14 +1,14 @@
 .paragraph {
   /*width: 400px;*/
   width: 35%;
-  text-align: left;
+  text-align: justify;
   line-height: 1.5;
   margin: 5px;
   display: block;
 }
 
 p.title {
-  color: rgba(255,255,255,0.85);
+  color: black;
   font-size: 24px;
 }
 
@@ -24,17 +24,10 @@ p.space {
   /*box-align: right;*/
 }
 
-section.page2 {
-  background-color: #ecf0f1
-}
-
-section.page3 {
+section.page2.dev {
+  /*background-color: #ffffcc;*/
   background: #ffffcc url(kanbanweb.jpg) bottom no-repeat;
   background-position: 50% 70%;
-}
-
-section.page4 {
-  background-color:   #c0c5ce;
 }
 
 .phase-2 p {

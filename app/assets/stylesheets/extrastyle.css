@@ -263,9 +263,6 @@ header {
 .main section .page_container .btns a{
   text-align: center;
 }
-.main section.page2 {
-  background: #555557;
-}
 /*.main section.page2 > img {
   position: absolute;
   top: -300px;

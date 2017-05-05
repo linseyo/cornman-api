@@ -1,58 +1,38 @@
-<!-- <div class="dev-story"> -->
 <div class="wrapper dev">
   <div class="main dev">
 
-<section class="page1 dev">
-  <div class="page_container dev">
-    <h1>Cornman: The Game</h1>
-    <p>Pushing the boundaries of learning</p>
-<!-- need image of final work here -->
-  </div>
-</section>
-
-
-<section class="page2">
-  <div class="container">
-    <div class="five columns paragraph">
-      <!-- <h2>Project Overview</h2> -->
+<section class="page1">
+    <div>
+      <%= image_tag("title-screen_macbookpro15_front.png", {size: "962x578"} ) %>
+    </div>
+    <div class="offset-by-two three columns paragraph">
       <p class="title space">Project Overview</p>
         <p class="space">
           In the final week of Bootcamp, we decided to build an HTML5 mobile application adaptable across multiple devices. In the short 7 days, we utilized agile methodologies, learned a brand new Phaser framework and deployed Cornman and the Cornman API both to heroku.
         </p>
     </div>
-    <div class="three columns">
-    </div>
-  <div class="one-third column paragraph">
+  <div class="three columns paragraph">
+    <p class="title space">Technologies Used</p>
+    <p>Javascript ES6, Phaser Framework, HTML5/CSS3, Ruby/Rails, Jasmine, Adobe Photoshop, Illustrator, Premiere Pro, Aseprite</p>
+    <p class="title space">Methodologies Utilized</p>
+    <p>Mobile first design, Agile, Website Wireframes</p>
+  </div>
+  <div class="three columns paragraph">
     <p class="title space">Duration</p>
     <p class="space">April 27, 2017 - May 5, 2017</p>
-  </div>
-
-  <div class="one-third column paragraph">
-    <p class="title space">
-      Roles
+    <p class="title space">Roles</p>
     <ul>
       <li>Team Lead: Josh Mun</li>
       <li>Design Executive: Linsey Reed</li>
       <li>Scrum Master: Julia Xu</li>
     </ul>
-    </p>
   </div>
-
-<div class="one-third column paragraph">
-  <p class="title space">Technologies Used</p>
-  <p>Javascript ES6, Phaser Framework, HTML5/CSS3, Ruby/Rails, Jasmine, Adobe Photoshop, Illustrator, Premiere Pro, Aseprite</p>
-</div>
-
-<div class="one-third column paragraph">
-  <p class="title space">Methodologies Utilized</p>
-  <p>Mobile first design, Agile, Website Wireframes</p>
-</div>
 </section>
 
-<section class="page3">
-  <div class="container">
-    <div class="seven columns paragraph">
+<section class="page2 dev">
+  <!-- <div class="container"> -->
       <h1>Phase 1: Learn</h1>
+    <div class="seven columns paragraph">
       <p>The first objective was to learn. None of us had ever developed a game--we had no idea even where to begin. We had vague notions of which technologies we'd like to use, "React is hot!", "Let's stick to Rails...", "what's a game engine?" The project was intimidating to say the least, but like all great things, we took it methodically, systematically and strategically.</p>
       <p>The first day was devoted to deep diving the subject. We scourged the internet, found dozens of possibilities, closed doors on dozens more until after lunch we circled in our chairs and decided: Pure Javascript, Phaser framework. We busted out our stickies and got to work towards a path to green. By the end of Thursday we built our Kanban, forecasted project timelines and agreed on team norms would included mandatory starbucks outings during the project. With good empathy and agile guiding us, the team was stoked.</p>
     </div>
@@ -64,11 +44,10 @@
         <li>React is hot... only sometimes.</li>
       </ul>
     </div>
-  </div>
+  <!-- </div> -->
 </section>
 
-<section class="page4">
-  <!-- <div class="container"> -->
+<section class="page3">
   <div class="offset-by-one column">
     <h1>Phase 2: Code, draw, scrap, learn, repeat.</h1>
   </div>
@@ -86,28 +65,29 @@
       <p>We had learned Javascript for the first time in about week, had 3 days to do a React tutorial and practice, and dove head first into building a mobile applciation. We wanted to deploy to the app store, so we gravitated towards React Native. It's powerful, to code once, and deploy anywhere. But realizing we were building an infintie side scroller game better suited as a static HTML5 game. React was not the best instrument as we weren't necessarily manipulating DOM elements, as much as we were manipulating a game canvas.</p>
       <p>If bootcamp taught us anything, it taught us to learn. We're used to feeling utterly confused and lost, and in that environment we thrive. We deep dived into Phaser, indexed reliable resources, found out the official documentation was terrible but it was all about the community edition. We dove to implement small features, all while learning Javascript and translating dated examples into ES6. It was like simulatenously learning all at the same time.</p>
       </div>
-  <!-- </div> -->
 </section>
-<!-- mockup pictures -->
 
-<section class="page5">
-  <div class="page_container">
-
-<h2>Phase 3: Challenges</h2>
-<p>Scaling, testing, etc</p>
-<!-- iterations of game, pictures of old cornman, versions of game -->
-
-<!-- seeing the game first show up, introducing states -->
-
-<p>Original assets</p>
-
-<h2>Deploy</h2>
-<p>Test, test, test everything you could. Deployed both to heroku, deployed on google play store. Working with scaling, compromising, media queries, bugs, etc</p>
-<p>Complete. Sleep.</p>
-<!-- video -->
-<!-- pictures of final product -->
-</div>
+<section class="page4">
+  <div class="offset-by-one-third columns">
+    <h1>Phase 3: Challenges to Deploy</h1>
   </div>
+  <div class="offset-by-one three columns">
+  <h2>Challenges</h2>
+  <p>The mobile industry is saturated with phones of various screens and sizes. This introduced the perennial challenge of scaling our game across multiple devices. We settled for a resolution of 960x640, at least covering the apple market. </p>
+  <p>Nature of game development makes testing increasingly difficult. The challenge is presented in recreating a testing environment that mirrors the entire game. We learned that's why notable companies will hire manual testers, a resource we lacked in the past seven days at Bootcamp.</p>
+  </div>
+  <div class="four columns">
+  <p></p>
+  </div>
+  <div class="three columns">
+  <h2>Lessons</h2>
+  <p>Continue to challenge ourselves, such as implementing a username feature. More research into asset design, consistency in design. Identifying good documentation.</p>
+  <h2>Achievements</h2>
+  <p>Everything in this game was 100% originally created by us. All assets, design and content were uniquely authored by the three of us. No corns were harmed in the making of this game.</p>
+  <h2>Deploy</h2>
+  <p>We successfully deployed the front end Cornman game to Heroku, as well as a second Cornman API housing the database and this website to Heroku as well. Deployment to Google Play store coming soon...</p>
+  </div>
+<!-- video -->
 </section>
 
   </div>
