@@ -220,7 +220,6 @@ header {
   /*top: 10%;*/
   height: 100%;
   margin: 0 auto 0;
-  max-width: 950px;
   z-index: 3;
 }
 .main section  {
@@ -229,7 +228,6 @@ header {
 
 /*.main section > img {
   position: absolute;
-  max-width: 100%;
   z-index: 1;
 }*/
 
