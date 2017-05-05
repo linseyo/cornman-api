@@ -21,10 +21,7 @@ p.space {
   display: inline-block;
 }
 
-section.page2.dev {
-  background: #ffffcc url(kanbanweb.jpg) bottom no-repeat;
-  background-position: 50% 70%;
-}
+
 
 .phase-2 p {
   text-align: justify;
