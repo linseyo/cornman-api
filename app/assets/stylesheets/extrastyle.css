@@ -265,7 +265,7 @@ header {
   text-align: center;
 }
 .main section.page2 {
-  background: #555557;
+  background: #e5e6eb;
 }
 /*.main section.page2 > img {
   position: absolute;
@@ -296,11 +296,12 @@ header {
   color: #FFF;
   }
 
+.main section.page4 {
+  background: #c0c2ce;
+}
+
 .main section.page4 .page_container {
   overflow: hidden;
-  /*width: 500px;
-  right: -285px;
-  /*margin: */
 }
 .main section.page4 h1 {
   text-align: left;
