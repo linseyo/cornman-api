@@ -22,7 +22,6 @@ p.space {
 }
 
 
-
 .phase-2 p {
   text-align: justify;
 }
@@ -40,6 +39,7 @@ div.whatever h3 {
 }
 
 #back-button {
+  bacground-color: transparent;
   margin-top: 10px;
   margin-left: 25px;
   text-align: left;
