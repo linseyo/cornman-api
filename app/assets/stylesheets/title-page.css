@@ -1,13 +1,4 @@
-.main section .page_container .title-page {
-  z-index: 1;
-  background-image: url('title-background-new.png');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: 100% 85%;
-  background-repeat:  no-repeat;
 
-}
 
 .title-content .title-header img{
   margin-top: 8%;
