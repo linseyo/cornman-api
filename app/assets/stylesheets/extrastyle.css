@@ -227,11 +227,11 @@ header {
   overflow: hidden;
 }
 
-.main section > img {
+/*.main section > img {
   position: absolute;
   max-width: 100%;
   z-index: 1;
-}
+}*/
 
 .main section.page1 {
   background:#C6E2FF;
@@ -348,11 +348,12 @@ body.disabled-onepage-scroll .main section.page1 > img {
   left: 10%;
 }
 
-body.disabled-onepage-scroll .main section > img {
+/*body.disabled-onepage-scroll .main section > img {
   position: relative;
   max-width: 80%;
   bottom: 0;
-}
+}*/
+
 body.disabled-onepage-scroll code {
   width: 95%;
   margin: 0 auto 25px;
