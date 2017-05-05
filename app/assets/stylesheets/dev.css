@@ -36,3 +36,7 @@ section.page3 {
 section.page4 {
   background-color:   #c0c5ce;
 }
+
+.phase-2 p {
+  text-align: justify;
+}
